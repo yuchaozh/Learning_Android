@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">HelloWorld2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <!-- The title of the App -->
+    <string name="title_activity_hello_world">First Android App</string>
+
+</resources>
