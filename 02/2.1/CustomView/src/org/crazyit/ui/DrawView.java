@@ -23,8 +23,8 @@ import android.view.View;
  */
 public class DrawView extends View
 {
-	public float currentX = 40;
-	public float currentY = 50;
+	public float currentX = 200;
+	public float currentY = 200;
 	// 定义、并创建画笔
 	Paint p = new Paint();
 	public DrawView(Context context)
@@ -40,9 +40,9 @@ public class DrawView extends View
 	{
 		super.onDraw(canvas);
 		// 设置画笔的颜色
-		p.setColor(Color.RED);
+		p.setColor(Color.BLUE);
 		// 绘制一个小圆（作为小球）
-		canvas.drawCircle(currentX, currentY, 15, p);
+		canvas.drawCircle(currentX, currentY, 50, p);
 	}
 
 	// 为该组件的触碰事件重写事件处理方法

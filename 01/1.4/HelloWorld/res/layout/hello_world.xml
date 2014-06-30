@@ -3,6 +3,7 @@
 	android:layout_height="wrap_content"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools">
+	<!-- 在xml中使用标识符 "@+id/标识符"-->
 	<TextView
 		android:id="@+id/show"
 		android:layout_width="wrap_content"
@@ -10,6 +11,7 @@
 		android:layout_centerInParent="true"
 		android:layout_alignParentTop="true"
 		android:text="@string/hello_world" />
+	<!-- 在xml中使用"@id/标识符"获取该组件 -->
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
