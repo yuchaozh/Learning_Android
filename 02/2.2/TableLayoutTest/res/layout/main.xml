@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 在这里button上得文本写在布局文件中，但不是一种好的方法，推荐将这些字符串集中放到xml文件中管理 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical"
 	android:layout_width="fill_parent"
