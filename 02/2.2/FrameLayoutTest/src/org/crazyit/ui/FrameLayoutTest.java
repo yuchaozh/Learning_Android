@@ -23,6 +23,7 @@ public class FrameLayoutTest extends Activity
 {
 	private int currentColor = 0;
 	// 定义一个颜色数组
+	// 在values的colors.xml中定义了color
 	final int[] colors = new int[] { 
 		R.color.color1,
 		R.color.color2,
