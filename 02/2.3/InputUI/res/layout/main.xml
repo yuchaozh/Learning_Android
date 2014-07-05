@@ -12,6 +12,7 @@
 	android:text="用户名:"
 	android:textSize="16sp"
 	/>	
+	<!-- selectAllOnFocus 表示默认全部选中。点击EditText后，会选中所有在EditText中得内容 -->>
 <EditText
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
